@@ -8,10 +8,10 @@
       Back To Products </a>
   </div>
   <div class="row">
-    <div class="col-5">
+    <div class="col-12 col-lg-5">
       <img src="/storage/{{ $product->image }}" class="img-responsive mw-100" />
     </div>
-    <div class="col-7">
+    <div class="col-12 col-lg-7">
       <h4>Price: <span>{{ $product->price }}</span> RSD</h4>
       @if($product->quantity > 0)
       <h5 class="text-success">Available</h5>

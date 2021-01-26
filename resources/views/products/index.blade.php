@@ -3,8 +3,8 @@
 @section('content')
 <h3>Products</h3>
 <div class="row">
-  <div class="col-3">
-    <div class="list-group my-5 my-sm-3 my-lg-4">
+  <div class="col-12 col-lg-3">
+    <div class="list-group my-2 my-sm-3 my-lg-4">
       <a href="#" class="list-group-item list-group-item-action active">
         Categories
       </a>
@@ -15,13 +15,12 @@
       @endforeach
     </div>
   </div>
-  <div class="col-9">
+  <div class="col-12 col-lg-9">
     <div class="card-deck">
       @foreach($products as $product)
-      <div class="col-10 col-sm-6 col-md-5 col-lg-4 col-xl-4 mx-auto my-5 my-sm-3 my-lg-4 px-xl-3">
+      <div class="col-12 col-sm-6 col-md-5 col-lg-3 col-xl-3 mx-auto my-4 my-lg-4 px-0 px-xl-3">
         <div class="card border-0 shadow h-100">
-          <img src="/storage/{{ $product->image }}" class="card-img-top" alt="{{ $product->title }}"
-            style="height: 140px; width: auto">
+          <img src="/storage/{{ $product->image }}" class="card-img-top music-img" alt="{{ $product->title }}">
           <div class="card-body py-2">
             <h6 class="card-title font-weight-bold">{{ $product->title }}</h6>
             <h6>Price: <span>{{ $product->price }}</span> EUR</h6>

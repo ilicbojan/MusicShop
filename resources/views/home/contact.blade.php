@@ -3,7 +3,7 @@
 @section('content')
 <h3 class="mb-3">Contact</h3>
 <div class="row mb-4">
-  <div class="col-4">
+  <div class="col-12 col-lg-4 my-2 my-lg-0">
     <div class="card border-0 shadow h-100">
       <div class="card-header bg-dark text-white">
         <h5 class="m-0">Muzio Belgrade</h5>
@@ -18,7 +18,7 @@
       </div>
     </div>
   </div>
-  <div class="col-4">
+  <div class="col-12 col-lg-4 my-2 my-lg-0">
     <div class="card border-0 shadow h-100">
       <div class="card-header bg-dark text-white">
         <h5 class="m-0">Muzio Novi Sad</h5>
@@ -33,7 +33,7 @@
       </div>
     </div>
   </div>
-  <div class="col-4">
+  <div class="col-12 col-lg-4 my-2 my-lg-0">
     <div class="card border-0 shadow h-100">
       <div class="card-header bg-dark text-white">
         <h5 class="m-0">Muzio Nis</h5>
@@ -52,19 +52,19 @@
 
 <h4 class="my-3">Follow Us</h4>
 <div class="row px-3 social-links mb-4" style="height: 100px">
-  <div class="col-4 p-0">
+  <div class="col-12 col-lg-4 p-0">
     <a href="https://www.facebook.com" target="_blank"
       class="social social-facebook d-flex justify-content-center align-items-center">
       <div>Facebook</div>
     </a>
   </div>
-  <div class="col-4 p-0 text-center">
+  <div class="col-12 col-lg-4 p-0 text-center">
     <a href="https://www.instagram.com" target="_blank"
       class="social social-instagram d-flex justify-content-center align-items-center">
       <div>Instagram</div>
     </a>
   </div>
-  <div class="col-4 p-0 text-center">
+  <div class="col-12 col-lg-4 p-0 text-center">
     <a href="https://www.twitter.com" target="_blank"
       class="social social-twitter d-flex justify-content-center align-items-center">
       <div>Twitter</div>

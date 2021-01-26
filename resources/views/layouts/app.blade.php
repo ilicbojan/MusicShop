@@ -223,7 +223,7 @@
       <div class="container">
         <div class="col-8 mx-auto">
           <div class="row nav-footer justify-content-start mt-2">
-            <div class="col">
+            <div class="col-12 col-lg-4">
               <ul>
                 <li><a href="{{ route('home.index') }}">Home</a></li>
                 <li><a href="{{ route('product.index') }}">Products</a></li>
@@ -238,13 +238,15 @@
                 @endauth
               </ul>
             </div>
-            <div class="col">
-              <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
-              <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
-              <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
-              <li><a href="https://www.youtube.com" target="_blank">Youtube</a></li>
+            <div class="col-12 col-lg-4">
+              <ul>
+                <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+                <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+                <li><a href="https://www.youtube.com" target="_blank">Youtube</a></li>
+              </ul>
             </div>
-            <div class="col">
+            <div class="col-12 col-lg-4">
               <ul>
                 <li>0651234567</li>
                 <li>0114567891</li>

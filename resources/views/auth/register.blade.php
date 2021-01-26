@@ -5,7 +5,7 @@
   <div class="col-md-8 mx-auto">
     <div class="d-flex justify-content-between mb-3">
       <h3>Register</h3>
-      <a href="{{ route('login') }}" class="align-self-center">Already have an account? Login here.</a>
+      <!-- <a href="{{ route('login') }}" class="align-self-center">Already have an account? Login here.</a> -->
     </div>
 
     <form action="{{ route('register') }}" method="POST">

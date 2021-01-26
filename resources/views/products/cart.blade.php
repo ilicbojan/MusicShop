@@ -28,8 +28,7 @@
         <td class="text-right align-middle price">{{ $product['quantity'] }}</td>
         <td class="align-middle">
           <a href="{{ route('product.removeFromCart', $product['item']['id']) }}" class="btn btn-danger remove">Remove
-            from
-            cart</a>
+            </a>
         </td>
       </tr>
       @endforeach

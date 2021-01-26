@@ -15,7 +15,7 @@
 </div>
 <div class="card-deck">
   @foreach($orderItems as $item)
-  <div class="col-6 my-3">
+  <div class="col-12 col-lg-6 my-3">
     <div class="card border-0 shadow h-100">
       <div class="card-header bg-primary text-white">
         <h5 class="m-0">{{ $item->product->title }}</h5>

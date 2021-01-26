@@ -19,6 +19,10 @@ main {
     color: #212529;
 }
 
+.music-img {
+    height: 180px;
+}
+
 .social {
     width: 100%;
     height: 100%;
@@ -58,7 +62,7 @@ main {
 .footer {
     position: relative;
     margin-top: -162px;
-    height: 170px;
+    height: 388px;
     clear: both;
     padding-top: 20px;
     background-color: #626262;
@@ -83,6 +87,10 @@ main {
     position: relative !important;
 }
 
+.carousel-img {
+    height: 300px;
+}
+
 .black-overlay {
     position: absolute;
     top: 0px;
@@ -90,4 +98,18 @@ main {
     height: 100%;
     width: 100%;
     background: rgba(0, 0, 0, 0.6);
+}
+
+@media (min-width: 1200px) {
+    .carousel-img {
+        height: 600px;
+    }
+
+    .music-img {
+        height: 140px;
+    }
+
+    .footer {
+        height: 170px;
+    }
 }
