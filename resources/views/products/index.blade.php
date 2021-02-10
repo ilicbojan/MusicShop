@@ -18,7 +18,7 @@
   <div class="col-12 col-lg-9">
     <div class="card-deck">
       @foreach($products as $product)
-      <div class="col-12 col-sm-6 col-md-5 col-lg-4 col-xl-4 mx-auto my-4 my-lg-4 px-0 px-xl-3">
+      <div class="col-12 col-sm-6 col-lg-4 mx-auto my-4 my-lg-4 px-0 px-xl-3">
         <div class="card border-0 shadow h-100">
           <img src="/storage/{{ $product->image }}" class="card-img-top music-img" alt="{{ $product->title }}">
           <div class="card-body py-2">
