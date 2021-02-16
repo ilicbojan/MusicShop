@@ -18,7 +18,7 @@
 
 ![Demo Image](public/images/demo.png/?raw=true "Demo Image")
 
-Web application for listing and selling musical instruments. The goal of the web application is to allow users to search for musical instruments, see details, add them to the cart, and order them. Administrator adds new musical instruments and categories. Application have 2 different roles: administrator and user.
+Web application for listing and selling musical instruments. The goal of the web application is to allow users to search for musical instruments, see details, add them to the cart, and order them. Administrator adds new musical instruments and categories. Application has 2 different roles: administrator and user.
 
 ## ⭐️ Features <a name="features"></a>
 
@@ -38,6 +38,7 @@ Web application for listing and selling musical instruments. The goal of the web
 -   [PHP](https://www.php.net/)
 -   [Laravel](https://laravel.com/)
 -   [Eloquent](https://laravel.com/docs/8.x/eloquent)
+-   [PostgreSQL](https://www.postgresql.org/)
 -   [HTML](https://www.w3schools.com/html/)
 -   [CSS](https://www.w3schools.com/css/default.asp)
 -   [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
